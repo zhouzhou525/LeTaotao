@@ -1,0 +1,164 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+}
+.quit-bigBox{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	padding-top: 48px;
+}
+.quit-box-top{
+	width: 100%;
+	height: 48px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color: #888;
+	border-bottom: 1px solid #dedede;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.iconfont-quitA{
+	position: absolute;
+	top: 5%;
+	left: 4%;
+}
+.quit-content-box{
+	width: 100%;
+}
+.quit-user-data{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background-color: white;
+	border-bottom: 1px solid #dedede;
+	padding-left: 5%;
+	font-size: 14px;
+	color: #888;
+	position: relative;
+}
+.quit-user-data:active{
+	background-color: #f1f1f1; 
+}
+.iconfont-quitB{
+	position: absolute;
+	top: 5%;
+	right: 4%;
+	font-size: 16px;
+}
+.quit-more-box{
+	width: 40%;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	position: absolute;
+	top: 18%;
+	right: 12%;
+	font-size: 12px;
+}
+.quit-last-big-box{
+	width: 100%;
+	height: 80px;
+	padding: 4% 4%;
+}
+.quit-last-bnt{
+	width: 100%;
+	height: 30px;
+	background-color: #ff4747;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+}
+.quit-last-bnt:active{
+	background-color: #fc9595;
+}
+.quit-Mask-box{
+	width: 100%;
+	height: 100%;
+	background-color: #898888;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.quit-Mask-box.active{
+	display: block;
+	animation: mymove-maskBox .3s linear;
+}
+@keyframes mymove-maskBox{
+	0%{
+    opacity: 0;
+	}
+	100%{
+	opacity: 0.4;	
+	}
+}
+.quit-Pop-ups-big-box{
+	width: 66%;
+	height: 80px;
+	background-color: white;
+	border: 1px solid #999;
+	position: absolute;
+	top: 40%;
+	left: 17%;
+	border-radius: 6px;
+	overflow: hidden;
+	display: none;
+}
+.quit-Pop-ups-big-box.active{
+    display: block;
+    animation: mymove-quitBox .4s linear;
+}
+@keyframes mymove-quitBox{
+	0%{
+    -webkit-transform: scale(0, 0);
+	}
+	80%{
+	-webkit-transform: scale(1.1, 1.1);	
+	}
+	100%{
+	-webkit-transform: scale(1, 1);	
+	}
+}
+.quit-ups-topBoxA, .quit-ups-topBox{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding-top: 8px;
+	color: #333;
+	font-size: 14px;
+}
+.quit-ups-topBox{
+	position: relative;
+}
+.quit-ups-bottomBox{
+    position: absolute;
+    border-top: 1px solid #999;
+    width: 50%;
+    height: 38px;
+    line-height: 38px;
+    top: 0;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f1f1f1;
+    color: #666;
+}
+.quit-BottomA{
+    left: 0;
+    border-right: 1px solid #999;
+}
+.quit-BottomB{
+    right: 0;
+}
+.quit-BottomA:active, .quit-BottomB:active{
+    background-color: #cac8c8;
+}

@@ -1,0 +1,65 @@
+<div class="cart-content">
+  <div class="cart-content-goods">
+    <!-- 无商品时 -->
+    <div class="cart-content-buy">
+      <img src="images/icon/buy.png">
+      <div id="cartContentBuyAdd" class="cart-content-buy-attach">去添加</div>
+    </div> 
+    <!-- 有商品时 -->
+    <% for(var i=0; i<dateIn.length; i++){ %>
+      <div class="cart-goods-box">
+        <div class="cart-goods-title">
+         <i class="iconfont icon-yuanxingweixuanzhong iconyuanxing"></i>
+         <span class="cart-goods-text"><%=dateIn[i].shopName%></span>
+         <span class="cart-goods-kefu">客服</span>
+         <i class="iconfont icon-xiaoxizhongxin iconkefu"></i>
+        </div>
+        <div class="cart-goods-hr"></div>
+        <% for(var j=0; j<dateIn[i].goods.length; j++){ %>
+          <div class="cart-goods-con">
+            <i class="iconfont icon-yuanxingweixuanzhong iconyuanxing iconyuanxing1"></i>
+            <img class="cart-goods-con-img" src="<%=dateIn[i].goods[j].imgSrc%>">
+            <div class="cart-goods-con-right">
+              <div class="cart-goods-con-title">
+                <span class="cart-goods-con-title-text"><%=dateIn[i].goods[j].goodsName%></span>
+                <span class="cart-goods-con-title-price"><%=dateIn[i].goods[j].price%></span>
+              </div>
+              <div class="cart-goods-con-size">
+                <span><%=dateIn[i].goods[j].color%></span>
+                <span><%=dateIn[i].goods[j].size%></span>
+                <div class="cart-goods-con-size-box">
+                    <div class="cart-goods-con-size-reduice">－</div><div class="cart-goods-con-size-price"><%=dateIn[i].goods[j].num%></div><div class="cart-goods-con-size-add">＋</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <% } %>
+      </div>
+    <% } %>
+  </div>
+  <div class="cart-content-rec">
+    <div class="cart-content-rec-title">精选推荐</div>
+    <div class="cart-content-rec-con">
+      <% for(var i=0; i< 5; i++){ %>
+        <div class="cart-content-goodslist1">
+          <div class="cart-content-goodslist-img">
+            <img src="images/womanfour/1.jpg">
+          </div>
+          <div class="cart-content-goodslist-txt">
+            <div class="cart-content-goodslist-txt1">【送袜子】韩国罗燕时尚百货 黑色小毛衣</div>
+            <div class="cart-content-goodslist-price">¥158.00</div>
+          </div>
+        </div>
+        <div class="cart-content-goodslist2">
+          <div class="cart-content-goodslist-img">
+            <img src="images/womanfour/2.jpg">
+          </div>
+          <div class="cart-content-goodslist-txt">
+            <div class="cart-content-goodslist-txt1">【送袜子】韩国罗燕时尚百货 黑色小毛衣</div>
+            <div class="cart-content-goodslist-price">¥158.00</div>
+          </div>
+        </div>
+      <% } %>
+    </div>
+  </div>
+</div>

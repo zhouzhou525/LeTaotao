@@ -1,0 +1,223 @@
+.register{
+    width:100%;
+    height: 100%;
+    padding-bottom: 40px;
+    background-color: white;
+}
+.register-nav{
+    width:100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+    color: #666;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-nav-enroll{
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    color: #777;
+}
+.icon-xiangzuojiantoua{
+    position: absolute;
+    top: 0;
+    left: 4%;
+}
+.register-content{
+    width:100%;
+    padding: 7% 3%;
+}
+.register-content-texta{
+    width:100%;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: #666;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-content-textb{
+    width:100%;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    color: #777;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-input-bigbox{
+    width: 100%;
+    height: 100px;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+.register-input-box{
+    width: 96%;
+    height: 40%;
+    border: 1px solid rgba(0,0,0,.2);   
+}
+.register-input-box1{   
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom: none;
+}
+.register-input-box2{   
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+input[type=text], input[type=password]{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-input-img{
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.register-input-img > img {
+    width: 100%;
+}
+.register-input-img > img.open{
+    -webkit-transform: rotate(180deg);
+    -webkit-transition: all .2s ease-in-out; 
+}
+.register-zi-input-box{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #eeeaea;
+    text-align: center;
+    line-height: 30px;
+    color: #777;
+    font-size: 12px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    background-color: #eeeaea;
+    box-shadow: 2px 4px 6px #999;
+    display: none;
+}
+.register-zi-input-box.open{
+    display: block;
+    -webkit-animation: mymove .2s linear;
+}
+.register-zi-input-box2{
+    top: 200%;
+}
+.register-forget{
+    width: 100%;
+    height: 24px;
+    margin-top: 4px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 14px;
+    color: #666;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-box-denglu{
+    width: 100%;
+    position: relative;
+    margin-top: 6px;
+    padding: 0;
+}
+input[type=submit]{
+    width: 96%;
+    padding: 0;
+    border: none;
+    background-color: #ff4747;
+    position: relative;
+    top:0;
+    left: 2.3%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 14px;
+    color: white;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.register-box-denglu-zi-box:active{
+    background-color: #fc9595;
+}
+.register-box-weibig-box{
+    width: 100%;
+    margin-top: 16px;
+    position: relative;
+}
+.register-box-emtry{
+    width: 100%;
+    height: 50px;
+}
+.register-box-weixinweibo{
+    position: absolute;
+    top: 22%;
+    width: 34%;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    font-size: 12px;  
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+    border-radius: 3px;
+}
+.register-box-weixin{
+    right: 54%;
+    background-color: #18a41e;   
+}
+.icon-weixina{
+    font-size: 18px;
+    color: white;
+}
+.register-box-weibo{
+    left: 54%;
+    background-color: #f02a2a;    
+}
+.icon-weiboa{
+    font-size: 18px;
+    color: white;
+}
+.alert-login-box{
+    width: 40%;
+    height: 5%;
+    border-radius: 6px;
+    padding-top: 5px;
+    background-color: #E08B8B;
+    opacity: .8;
+    position: absolute;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    z-index: 2000;
+    display: none;
+    transition: all 1s;
+    animation: checkBox 1s forwards;
+}
+@keyframes checkBox{
+    0%{
+        top: 36%;
+        left: 30%;
+        transform: scale(.8);
+    }
+    90%{
+        top: 36%;
+        left: 30%;
+        transform: scale(.8);
+    }
+    100%{
+        top: 36%;
+        left: 30%;
+        transform: scale(0);
+    }
+}

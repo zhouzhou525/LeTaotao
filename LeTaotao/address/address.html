@@ -1,0 +1,15 @@
+<div class="address-box">
+	<div id="province-box">
+		<div class="add-nav-box">
+			<div class="backTocon"> < </div>
+			<div class="add-nav-name">选择地区</div>
+		</div>
+		<div class="add-con-cell">
+			<div class="add-con-box">
+				<% for(var i=0;i<proData.length;i++){ %>
+					<div class="province" data-province="<%=proData[i].proName%>" data-code="<%=proData[i].code%>"><%=proData[i].proName%></div>
+				<% } %>
+			</div>
+		</div>
+	</div>
+</div>

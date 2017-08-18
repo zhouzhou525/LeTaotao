@@ -1,0 +1,13 @@
+<div id="town-box">
+	<div class="add-nav-box">
+		<div class="backToCity"> < </div>
+		<div class="add-nav-name">选择地区</div>
+	</div>
+	<div class="add-con-cell">
+		<div class="add-con-box">
+			<% for(var i=0;i<towncell.townName.length;i++){ %>
+				<div class="town" data-town="<%=towncell.townName[i]%>"><%=towncell.townName[i]%></div>
+			<% } %>
+		</div>
+	</div>
+</div>

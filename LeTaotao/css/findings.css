@@ -1,0 +1,226 @@
+.discover{
+    width:100%; 
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom:45px;
+    overflow: auto;
+}
+.discover-show-box{
+    width: 22%;
+    height: 30px;
+    background-color: #f24a4a;
+    border-radius: 8px;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+    left: 40%;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: white;
+    z-index: 10000;
+    display: none;
+}
+.discover-show-box.active{
+    animation: mymoveone 2s forwards;
+    display: none;
+}
+@keyframes mymoveone{
+    0%{
+    top: 70%;
+    opacity: 0.4;
+    }
+    90%{
+    top: 55%;
+    opacity: 1;    
+    }
+    100%{
+    top: 55%;
+    opacity: 0;
+    }
+}
+.discover-nav{
+    width:100%;
+    height: 44px;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    padding: 5px;
+    background: #fff;
+    position: fixed;
+    color: #555;
+    z-index: 100;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.iconfont-discover-back{
+    position: absolute;
+    left: 4%;
+    font-size: 16px;
+}
+.discover-content{
+    width:100%;  
+}
+.discover-banner{
+    width:100%;
+    background: #fff;
+}
+.discover-banner-img{
+    width:100%;
+}
+.discover-live{
+    width:100%;
+    background: #fff;
+    padding:2%;
+}
+.discover-live-title{
+    width: 100%;
+    line-height: 26px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 16px;
+    color: #777;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.discover-live-list-box{
+    margin-top: 5px;
+    width: 100%;
+    padding-bottom: 10px;
+    height: 120px;
+}
+.discover-live-list{
+    width:50%;
+    height: 120px;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+}
+.discover-live-list>img{
+    width:96%;
+}
+.discover-brand{
+    width:100%;
+    background: #fff;
+    margin-top: 5px;
+}
+.discover-brand-nav{
+    width:100%;
+    height: 40px;
+}
+.discover-brand-nav-boxs{
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 48px;
+    color: #555;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+.discover-brand-nav-left{
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.discover-brand-nav-right{
+    padding-left: 82px;
+    font-size: 16px;
+}
+.discover-brand-content{
+    width:100%;
+    height: 187px;
+    padding:3%;
+}
+.discover-brand-content-list{
+    width:25%;
+    height: 82px;
+    float: left;
+    padding:1%;
+}
+.discover-brand-content-list>img{
+    width:100%;
+    height: 100%;
+}
+.discover-brand-hot-bigbox{
+    width: 100%;
+    margin-top: 5px;
+    background-color: white;
+}
+.discover-brand-hot-box-title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-weight: bolder;
+    padding-left: 12px;
+    font-size: 16px;
+    color: #777;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.discover-brand-hot-list-box{
+    width: 100%;
+    height: 220px;
+    position: relative;
+}
+.discover-empty1{
+    width: 100%;
+    height: 220px;
+}
+.discover-brand-listbox{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 0;
+}
+.brand-listbox1{
+    left: 1%;
+}
+.brand-listbox2{
+    right: 1%;
+}
+.discover-brand-list-img{
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+.discover-brand-list-img > img{
+    width: 100%;
+}
+.discover-brand-list-txt1{
+    width: 100%;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #777;
+    padding-left: 5px;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.discover-brand-list-txt2{
+    margin-top: 2px;
+    width: 100%;
+    font-size: 12px;
+    color: #666;
+    padding-left: 5px;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.discover-brand-listbox-zi-img{
+    width: 100%;
+    border-top: 1px dashed #999;
+    height: 36px;
+    font-size: 12px;
+    padding: 6px 34px;
+    line-height: 26px;
+    position: relative;
+    color: #555;
+    font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.discover-brand-listbox-zi-img > img{
+    position: absolute;
+    width: 14%;
+    border: 1px solid #f1f1f1;
+    border-radius: 50%;
+    top: 22%;
+    left: 4%;
+}
+.icon-love{
+    font-size: 14px;
+    position: absolute;
+    right: 5%;
+}
+

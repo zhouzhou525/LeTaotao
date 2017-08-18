@@ -1,0 +1,327 @@
+.cart-title{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	background-color: white;
+	padding: 15px;
+	font-size: 16px;
+	text-align: center;
+	color: #333;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.arrow-left{
+	float: left;
+	font-size: 16px;
+}
+.cart-edit{
+	float: right;
+	font-size: 14px;
+}
+/*-----------------------------*/
+.cart-goods-box{
+	width: 100%;
+	background-color: white;
+	display: none;
+	margin-bottom: 20px;
+}
+.cart-goods-title{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+}
+.cart-goods-title:after{
+	content: ' ';
+	clear: both;
+}
+.cart-goods-text{
+	font-size: 14px;
+	color: #333;
+	margin: 0 3px;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.iconyuanxing{
+	font-size: 15px;
+	color: #EA3131;
+	margin-left: 15px;
+}
+.cart-goods-kefu{
+	font-size: 14px;
+	color: #333;
+	float: right;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.iconkefu{
+	font-size: 17px;
+	float: right;
+}
+.cart-goods-hr{
+	width: 100%;
+	margin: auto;
+	position: relative;
+}
+.cart-goods-hr:after{
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-image: -webkit-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -moz-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -ms-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -o-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+}
+.cart-goods-con{
+	width: 100%;
+	height: 110px;
+}
+.iconyuanxing1{
+	display: inline-block;
+	line-height: 110px;
+}
+.cart-goods-con-img{
+	display: inline-block;
+	width: 20%;
+	height: 55%;
+	border: 1px solid #ccc;
+	border-collapse:collapse;
+	vertical-align: middle;
+	margin-left: 15px;
+	margin-right: 3px;
+}
+.cart-goods-con-right{
+	display: inline-block;
+	width: 60%;
+}
+.cart-goods-con-title{
+	width: 100%;
+}
+.cart-goods-con-title:after{
+	content: " ";
+	clear: both;
+}
+.cart-goods-con-title-text{
+	/*width: 80%;*/
+	font-size: 14px;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.cart-goods-con-title-price{
+	/*width: 20%;*/
+	font-size: 10px;
+	float: right;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.cart-goods-con-size{
+	width: 100%;
+	margin-top: 3px;
+}
+.cart-goods-con-size:after{
+	content: " ";
+	clear: both;
+}
+.cart-goods-con-size span{
+	font-size: 10px;
+	color: #333;
+	line-height: 10px;
+}
+.cart-goods-con-size-box{
+	width: 60px;
+	float: right;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 0;
+}
+.cart-goods-con-size-reduice{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.cart-goods-con-size-price{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: -7px;
+}
+.cart-goods-con-size-add{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	font-size: 10px;
+	text-align: center;
+	line-height: 20px;
+	color: #f54c16;
+	display: inline-block;
+	vertical-align: bottom;
+}
+/*-----------------------------*/
+.cart-foot-box{
+	width: 100%;
+	height: 44px;
+	position: fixed;
+	bottom: -1px;
+	left: 0;
+	background-color: white;
+	z-index: 100;
+	font-size: 0;
+	box-shadow: 1px 1px 5px 2px rgba(120,120,120, .3);
+}
+.cart-foot-select{
+	width: 76%;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding: 3% 15px;
+}
+.cart-foot-select-text{
+	font-size: 15px;
+	margin-right: 10px;
+	color: #EA3131;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+
+#price-sum{
+	color: #EA3131;
+}
+.cart-foot-delete{
+	width: 24%;
+	height: 100%;
+	float: left;
+	background-color: #ccc;
+	position: relative;
+}
+.cart-foot-delete-text{
+	text-align: center;
+	font-size: 12px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+/*----------------content--------------------*/
+.cart-content{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+	padding-top: 50px;
+	padding-bottom: 44px; 
+}
+.cart-content-goods{
+	width: 100%;
+	margin-top: 12px;
+	height: auto;
+	overflow: hidden;
+}
+.cart-content-buy{
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	text-align: center;
+	padding-top: 30px; 
+}
+.cart-content-buy img{
+	width: 38%;
+	height: 52%;
+}
+.cart-content-buy-attach{
+	margin: 20px auto;
+	width: 100px;
+	height: 30px;
+	border: 1px solid #EA3131;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #EA3131;
+	line-height: 2;
+}
+/*------------------------------------*/
+.cart-content-rec{
+	width: 100%;
+	margin-top: 15px;
+	overflow: hidden;
+	background-color: white;
+	position: relative;
+	padding-bottom: 40px;
+}
+.cart-content-rec-title:after{
+	position: absolute;
+    display: block;
+    content: '\20';
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+    left: 0;
+    background: url("../images/icon/end.png") no-repeat center center white;
+    background-size: 30px 21px;
+    z-index: 1;
+}
+.cart-content-rec-title{
+	width: 100%;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: #777;
+	line-height: 30px;
+}
+.cart-content-rec-con{
+	width: 100%;
+	height: auto;
+}
+.cart-content-goodslist1{
+	width: 50%;
+	height: 220px;
+	border: outset solid #aaa;
+	float: left;
+	padding: 5px;
+	padding-right: 5px;
+}
+.cart-content-goodslist2{
+	width: 50%;
+	height: 220px;
+	border: outset solid #aaa;
+	float: left;
+	padding: 5px;
+	padding-left: 5px;
+}
+.cart-content-goodslist-img{
+	width: 100%;
+	height: 76%;
+}
+.cart-content-goodslist-img img{
+	width: 100%;
+	height: 100%;
+}
+.cart-content-goodslist-txt{
+	width: 100%;
+	height: 24%;
+}
+.cart-content-goodslist-txt1{
+	width: 100%;
+	height: 50%;
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.cart-content-goodslist-price{
+	padding-left: 10px;
+	font-size: 12px;
+	color: #EA3131;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}

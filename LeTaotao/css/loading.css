@@ -1,0 +1,98 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    height: 100%;
+}
+.load-bigBox{
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	padding-top: 48px;
+}
+.load-box-top{
+	width: 100%;
+	height: 48px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color: #888;
+	border-bottom: 1px solid #dedede;
+	font-family: STHeiti,'Microsoft YaHei',Helvetica,Arial,sans-serif;
+}
+.iconfont-loadA{
+	position: absolute;
+	top: 5%;
+	left: 4%;
+}
+.load-content-box{
+	width: 100%;
+}
+.load-detail-one-box{
+	width: 100%;
+	height: 80px;
+	background-color: white;
+    margin-top: 10px;
+    position: relative;
+    line-height: 80px;
+    color: #888;
+    padding-left: 5%;
+    font-size: 14px;
+    border-bottom: 1px solid #dedede;
+}
+.load-detail-one-box:active{
+	background-color: #f1f1f1; 
+}
+.load-detail-box-imgbox{
+	width: 60px;
+	height: 60px;
+	border: 1px solid #f1f1f1;
+	position: absolute;
+	top: 14%;
+	right: 12%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.load-detail-box-imgbox > img{
+	width: 100%;
+}
+.iconfont-loadB{
+	position: absolute;
+	top: 5%;
+	right: 4%;
+	font-size: 16px;
+}
+.load-user-data{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	background-color: white;
+	border-bottom: 1px solid #dedede;
+	padding-left: 5%;
+	font-size: 14px;
+	color: #888;
+	position: relative;
+}
+.load-user-data:active{
+	background-color: #f1f1f1; 
+}
+.load-more-box{
+	width: 40%;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	position: absolute;
+	top: 18%;
+	right: 12%;
+	font-size: 12px;
+}
+.load-user-dataA{
+	margin: 10px 0px;
+}
+.load-more-boxAA{
+	right: 5%;
+}

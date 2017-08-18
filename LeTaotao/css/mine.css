@@ -1,0 +1,178 @@
+.login-title{
+	width: 100%;
+	height: 30%;
+	overflow: hidden;
+	position: relative;
+	background: #999;
+}
+.login-title-setting{
+	width: 8%;
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	text-align: center;
+}
+.icon-shezhi1{
+	font-size: 24px;
+	color: white;
+}
+.login-title-userBox{
+	width: 82px;
+	height: 110px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+}
+.login-title-user{
+	width: 68px;
+	height: 64px;
+	margin: auto;
+	border-radius: 50%;
+	border: 3px solid #DEE3E3;
+	background-color: #eee;
+}
+.iconYonghu{
+	font-size: 40px;
+	color: #aaa;
+	line-height: 150%;
+}
+.login-title-userText{
+	width: 100%;
+	height: 28%;
+	font-size: 14px;
+	color: white;
+	line-height: 200%;
+}
+/*--------------------------*/
+.login-title-bottomBox{
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	bottom: 10px;
+	left: 0px;
+}
+.login-title-bottomBox::after{
+	content: "";
+	clear: both;
+}
+.login-title-bottom{
+	width: 25%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+}
+.login-title-bottom-text{
+	margin-top: 3px;
+}
+.login-title-bottom-border{
+	width: 1px;
+	height: 40%;
+	margin: auto 0;
+	float: right;
+	border-right: 1px solid white;
+}
+/*-------------content--------------------*/
+.login-content{
+	width: 100%;
+	height: 70%;
+	overflow: hidden;
+	color: #555;
+}
+.login-content-information{
+	width: 100%;
+	height: 26%;
+	background-color: white; 
+}
+.login-content-information-orders{
+	width: 100%;
+	height: 36%; 
+	padding: 0 20px;
+	position: relative;
+}
+.login-content-information-orders span{
+	font-size: 14px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.login-content-information-orders i{
+	vertical-align: middle;
+	font-size: 14px;
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+/*---------------加细线---------------------------*/
+.login-content-information-hr{
+	width: 90%;
+	margin: auto;
+	position: relative;
+}
+.login-content-information-hr::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  background-image: -webkit-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -moz-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -ms-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: -o-linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #e0e0e0 50%, transparent 50%);
+}
+/*-------------------------------------------*/
+.login-content-information-others{
+	width: 100%;
+	height: 64%;
+}
+.login-content-information-others-content{
+	width: 20%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+}
+.login-content-information-others-content i{
+	font-size: 32px;
+}
+.login-content-information-others-content div{
+	font-size: 12px;
+	width: 100%;
+	margin: auto;
+}
+/*------------------------------------------*/
+.login-content-others{
+	margin-top: 8px;
+	width: 100%;
+	height: 50%;
+}
+.login-content-others-content{
+	width: 25%;
+	height: 50%;
+	text-align: center;
+	background-color: white;
+	padding-top: 20px;
+	padding-right: 1px;
+	float: left;
+}
+.login-content-others-content i{
+	font-size: 30px;
+	color: #BF7152;
+}
+.login-content-others-content div{
+	width: 100%;
+	margin-top: 14px;
+	font-size: 12px;
+}
+.login-content-bottom{
+	padding-top: 1px;
+	width: 100%;
+	height: 24%;
+	background-color: white;
+}
