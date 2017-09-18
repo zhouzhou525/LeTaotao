@@ -1,2 +1,2 @@
 # myCode
-this is a showing space
+初学requirejs
